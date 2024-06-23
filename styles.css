@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter", sans-serif;
+}
+
+.card-container {
+  background-color: hsl(0, 0%, 12%);
+  width: 30%;
+  text-align: center;
+  padding: 1em 2em;
+  border-radius: 10px;
+}
+
+img {
+  width: 20%;
+  border-radius: 50%;
+}
+
+h2 {
+  margin-top: 0.5em;
+  margin-bottom: 0.25em;
+}
+.location {
+  font-size: 0.89rem;
+  font-weight: 600;
+  color: hsl(75, 94%, 57%);
+  margin-bottom: 1em;
+}
+
+p {
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-bottom: 1.25em;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 1em;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  background-color: hsl(0, 0%, 20%);
+}
+a:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 20%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 375px) {
+  .card-container {
+    width: 90%;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
+  .card-container {
+    width: 70%;
+  }
+}
